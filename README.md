@@ -1,4 +1,4 @@
-## ⭐ HTML & CSS PROJECTS ⭐
+## ⭐ TAILWIND PROJECTS ⭐
 
 
 This repository contains all Tailwind (which is a CSS Framework) Projects which are completely responsive and deployed on Netlify.
