@@ -1,7 +1,7 @@
 ## ⭐ TAILWIND PROJECTS ⭐
 
 
-This repository contains all Tailwind (which is a CSS Framework) Projects which are completely responsive and deployed on Netlify.
+This repository consists of a collection of Tailwind-based projects, meticulously crafted to achieve full responsiveness, and deployed on the Netlify platform.
 
 ## 📌 Tech Stack
 
