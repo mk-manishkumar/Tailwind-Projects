@@ -1,0 +1,702 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RØDE Microphones</title>
+    <script src="https://kit.fontawesome.com/79a16dc9d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: '480px',
+
+                    cs: '600px',
+
+                    md: '768px',
+
+                    lg: '1024px',
+
+                    xl: '1280px',
+
+                    '2xl': '1536px',
+                },
+                extend: {
+                    colors: {
+                        mybrown: '#ad9970',
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <!-- header -->
+
+    <header class=" bg-white ">
+        <!-- navigation -->
+        <nav class=" px-16 fixed right-0 top-0 left-0 shadow-md bg-white  py-4  flex justify-between items-center">
+            <div class="bar lg:hidden">
+                <i class="fas fa-bars text-2xl cursor-pointer" aria-hidden="true"></i>
+            </div>
+            <div class="w-24 flex justify-center items-center">
+                <img src="Assets/RODE_Logo_87x51_RGB.svg" alt="logo" class="cursor-pointer" />
+            </div>
+
+            <ul class="gap-14 hidden lg:flex">
+                <li
+                    class="text-[#6b7177] cursor-pointer font-medium text-base uppercase duration-150 hover:text-mybrown">
+                    Products
+                </li>
+                <li
+                    class="text-[#6b7177] cursor-pointer font-medium text-base uppercase duration-150 hover:text-mybrown">
+                    User Guides
+                </li>
+                <li
+                    class="text-[#6b7177] cursor-pointer font-medium text-base uppercase duration-150 hover:text-mybrown">
+                    Solutions
+                </li>
+                <li
+                    class="text-[#6b7177] cursor-pointer font-medium text-base uppercase duration-150 hover:text-mybrown">
+                    Apparel
+                </li>
+                <li
+                    class="text-[#6b7177] cursor-pointer font-medium text-base uppercase duration-150 hover:text-mybrown">
+                    Support
+                </li>
+            </ul>
+            <div class="icon">
+                <i class="fas fa-search text-xl text-black cursor-pointer" aria-hidden="true"></i>
+            </div>
+        </nav>
+        <!-- end navigation -->
+    </header>
+
+    <!-- first section -->
+    <div
+        class="lg:bg-[url('assets/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg')] bg-black bg-cover bg-center bg-no-repeat w-fit h-max mt-4">
+        <div class="lg:grid gap-6 grid-cols-2 flex flex-col items-center">
+            <div class="w-full h-full flex md:justify-start justify-center items-center">
+                <img src="./Assets/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg" alt="img" class="" />
+            </div>
+            <div class="flex flex-col justify-center items-center py-8">
+                <img src="./Assets/RODECasterProII_PL_PI_01.svg" alt="img" class="h-10 mx-auto" />
+                <h2 class="mt-8 text-white text-2xl">The Revolution Is Here</h2>
+                <p class="mt-2 text-[#6b7177] w-[80%] mx-auto text-center">
+                    The RØDECaster Pro II is the world's most powerful all-in-one
+                    audio solution for streamers, podcasters, musicians, and creators.
+                    Take your content to the next level.
+                </p>
+                <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+                    <button class="text-mybrown font-medium text-lg flex items-center gap-2">
+                        LEARN MORE
+                        <span><i class="fas fa-chevron-right " aria-hidden="true"> </i></span>
+                    </button>
+                    <button
+                        class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end first section -->
+
+
+    <!-- NTH-100 section -->
+
+
+
+    <div
+        class="lg:bg-[url('Assets/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')] bg-cover bg-center bg-no-repeat  lg:h-screen h-max">
+        <div class="lg:grid gap-6 grid-cols-[7fr_5fr] items-center">
+            <div class="flex flex-col justify-center items-center py-8 px-4 lg:h-screen">
+                <img src="./Assets/NTH-100_PL_P_RGB_01.svg" alt="img" class="h-10 mx-auto" />
+                <h2 class="mt-8 text-3xl font-medium sm:w-[80%] mx-auto text-center  text-black">
+                    Your Search For The Perfect Headphones Is Over
+                </h2>
+                <p class="mt-2 text-[#6b7177] sm:w-[70%] mx-auto text-center">
+                    Experience sound like never before with the NTH-100s. Exceptional
+                    sonic performance, superior comfort and iconic looks that inspires
+                    creativity.
+                </p>
+                <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+                    <button class="text-mybrown font-medium text-lg flex items-center gap-2">
+                        LEARN MORE
+                        <span><i class="fas fa-chevron-right " aria-hidden="true"> </i></span>
+                    </button>
+                    <button
+                        class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div class="lg:block hidden">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end NTH-100 section -->
+
+
+    <!-- NT-USB section -->
+    <div
+        class="lg:bg-[url('./Assets/rode-nt-usb-webheader-v7-1920x700-rgb.jpg')] bg-cover bg-center bg-no-repeat  lg:h-screen h-max">
+        <div class="lg:grid gap-6 grid-cols-[5fr_7fr] items-center">
+            <div class="flex items-center justify-center">
+                <img src="./Assets/rode-nt-usb-webheader-v7-800x700-rgb.jpg" alt="img" class="lg:hidden" />
+            </div>
+            <div class="flex flex-col justify-center items-center py-8 px-4 lg:h-screen">
+                <img src="./Assets/NT-USB_PL_P_01.svg" alt="img" class="h-10 mx-auto" />
+                <h2 class="mt-8 text-3xl font-medium sm:w-[80%] mx-auto text-center  text-black">
+                    Studio-Quality Recording, Made Simple
+                </h2>
+                <p class="mt-2 text-[#6b7177] sm:w-[70%] mx-auto text-center">
+                    The NT-USB is a studio-quality USB condenser microphone that
+                    offers impeccable audio, elegant looks and premium features, all
+                    in an easy-to-use form factor, the NT-USB will have you sounding
+                    like a pro in seconds.
+                </p>
+                <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+                    <button class="text-mybrown font-medium text-lg flex items-center gap-2">
+                        LEARN MORE
+                        <span><i class="fas fa-chevron-right " aria-hidden="true"> </i></span>
+                    </button>
+                    <button
+                        class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end NT-USB section -->
+
+
+    <!-- POD MIC section -->
+    <div
+        class="lg:bg-[url('./Assets/rode-podmic-webheader-1920x700-rgb20(2).jpg')] bg-cover bg-center bg-no-repeat  lg:h-screen h-max">
+        <div class="lg:grid gap-6 grid-cols-[7fr_5fr] flex flex-col-reverse items-center">
+            <div class="flex flex-col justify-center items-center py-8 px-4  lg:h-screen">
+                <picture>
+                    <source media="(max-width: 1024px)" srcset="/Assets/PodMic_PL_P_01_web-top-padding-01.svg" />
+
+                    <img src="./Assets/PodMic_PL_PI_01.svg" alt="img" class="lg:h-10 h-16 mx-auto" />
+                </picture>
+                <h2 class="mt-8 text-3xl font-medium sm:w-[80%] mx-auto text-center lg:text-white text-black">
+                    Broadcast-grade Dynamic Microphone
+                </h2>
+                <p class="mt-2 lg:text-gray-300 text-gray-500 text-lg font-semibold sm:w-[60%] mx-auto text-center">
+                    Give your voice that rich, broadcast sound with the PodMic.
+                    Perfect for livestreaming, voice-over, podcasting and gameplay.
+                </p>
+                <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+                    <button
+                        class="text-mybrown lg:hover:text-white lg:font-bold font-medium text-lg flex items-center gap-2">
+                        LEARN MORE
+                        <span><i class="fas fa-chevron-right " aria-hidden="true"> </i></span>
+                    </button>
+                    <button
+                        class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="./Assets/rode-podmic-webheader-800x700-rgb-(2).jpg" alt="img" class="lg:hidden" />
+            </div>
+        </div>
+    </div>
+    <!-- end POD MIC section -->
+
+    <!-- Wireless GO II section -->
+    <div class="lg:bg-[url('./Assets/WIGOII-WEBHEADER-02.jpg')] bg-cover bg-center bg-no-repeat  lg:h-screen h-max">
+        <div class="lg:grid gap-6 grid-cols-[5fr_7fr] items-center">
+            <div class="flex items-center justify-center">
+                <img src="./Assets/rode-wigo2-web-header-800x700.jpg" alt="img" class="lg:hidden" />
+            </div>
+            <div class="flex flex-col justify-center items-center py-8 px-4 lg:h-screen">
+                <picture>
+                    <source media="(max-width: 1024px)" srcset="/Assets/WIGO_II_PL_P_01_web-top-padding-01.svg" />
+
+                    <img src="./Assets/WIGO_II_PL_PI_01.svg" alt="img" class="lg:h-10 h-16 mx-auto" />
+                </picture>
+                <h2 class="mt-8 text-3xl font-medium sm:w-[80%] mx-auto text-center lg:text-white text-black">
+                    Next Generation Wireless Audio
+                </h2>
+                <p class="mt-2 lg:text-white text-[#6b7177] sm:w-[70%] mx-auto text-center">
+                    The Wireless GO II is the world’s most powerful and versatile
+                    wireless microphone. With an unparalleled feature set and
+                    ultra-compact form factor, this is next generation wireless audio
+                    for every creator.
+                </p>
+                <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+                    <button class="text-mybrown font-medium text-lg flex items-center gap-2">
+                        LEARN MORE
+                        <span><i class="fas fa-chevron-right " aria-hidden="true"> </i></span>
+                    </button>
+                    <button
+                        class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Wireless GO II section end -->
+
+    <!-- NT-USB Mini section -->
+    <div
+        class="lg:bg-[url('./Assets/rode-nt-usb-mini-webheader-1920x700-rgb0(2).jpg')] bg-cover bg-center bg-no-repeat  lg:h-screen h-max">
+        <div class="lg:grid gap-6 grid-cols-[7fr_5fr] flex flex-col-reverse items-center">
+            <div class="flex flex-col justify-center items-center py-8 px-4  lg:h-screen">
+                <picture>
+                    <source media="(max-width: 1024px)" srcset="/Assets/NT-USB_Mini_PL_P_01_web-top-padding-01.svg" />
+
+                    <img src="./Assets/NT-USB_Mini_PL_PI_01.svg" alt="img" class="lg:h-10 h-16 mx-auto" />
+                </picture>
+                <h2 class="mt-8 text-3xl font-medium sm:w-[80%] mx-auto text-center lg:text-white text-black">
+                    Compact Sound, Incredibly Powerful
+                </h2>
+                <p class="mt-2 lg:text-gray-300 text-gray-500 text-lg font-semibold sm:w-[60%] mx-auto text-center">
+                    The NT-USB Mini brings pristine studio sound to a compact USB
+                    microphone, and with RØDE Connect unlocking more power, more
+                    features and more control, it’s the perfect recording solution for
+                    podcasters, gamers and streamers.
+                </p>
+                <div class="flex justify-center md:mt-12 mt-4 space-x-4">
+                    <button
+                        class="text-mybrown lg:hover:text-white lg:font-bold font-medium text-lg flex items-center gap-2">
+                        LEARN MORE
+                        <span><i class="fas fa-chevron-right " aria-hidden="true"> </i></span>
+                    </button>
+                    <button
+                        class="bg-mybrown text-lg font-medium text-white py-2 px-5 rounded-full hover:bg-white hover:text-black duration-100">
+                        BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="./Assets/rode-nt-usb-mini-webheader-800x700-rgb.jpg" alt="img" class="lg:hidden" </div>
+            </div>
+        </div>
+        <!-- NT-USB Mini section end-->
+
+
+        <!-- Explore The RØDE Range section -->
+
+        <div class="py-8">
+            <h2 class="py-4 text-4xl text-center text-[#6b7177] font-semibold ">
+                Explore The RØDE Range
+            </h2>
+        </div>
+
+        <div class="sm:w-[85%] w-[90%] mx-auto">
+            <div
+                class="bg-[url('Assets/abc.png')] bg-cover bg-center bg-no-repeat flex justify-center items-center h-[35vh] object-cover">
+                <h2 class="text-white lg:text-7xl md:text-5xl cs:text-4xl text-2xl font-medium">
+                    MICROPHONES
+                </h2>
+            </div>
+
+            <div
+                class="mt-8 bg-[url('Assets/abc1.jpg')] bg-cover bg-center bg-no-repeat flex justify-center items-center h-[35vh] object-cover">
+                <h2 class="text-white lg:text-7xl md:text-5xl cs:text-4xl text-2xl font-medium">
+                    INTERFACES & MIXERS
+                </h2>
+            </div>
+            <div
+                class="mt-8 bg-[url('Assets/abc3.png')] bg-cover bg-center bg-no-repeat flex justify-center items-center h-[35vh] object-cover">
+                <h2 class="text-white lg:text-7xl md:text-5xl cs:text-4xl text-2xl font-medium">
+                    SOFTWARES
+                </h2>
+
+            </div>
+
+            <div
+                class="mt-8 bg-[url('Assets/abc2.png')] bg-cover bg-center bg-no-repeat flex justify-center items-center h-[35vh] object-cover">
+                <h2 class="text-white lg:text-7xl md:text-5xl cs:text-4xl text-2xl font-medium">
+                    ACCESSORIES
+                </h2>
+
+            </div>
+
+        </div>
+        <!-- Explore The RØDE Range end -->
+
+
+        <!-- Latest From Rode -->
+        <div>
+            <h2 class="text-center md:text-3xl text-2xl font-medium text-mybrown py-4">
+                Latest From The RØDE Blog
+            </h2>
+
+            <div class="bg-slate-100 h-max py-8">
+                <div class="sm:w-[85%] w-[90%] mx-auto grid md:grid-cols-2 grid-cols-1 gap-10">
+                    <div class="py-4 shadow bg-white">
+                        <p class="text-center font-medium pb-2 md:px-4 px-2 lg:text-3xl text-lg">
+                            XLR vs USB Microphones: Which is Best for You?
+                        </p>
+                        <div>
+                            <img src="./Assets/thumbnail2.jpg" alt="Img" class="" />
+                        </div>
+                        <h3 class="mt-4 md:w-4/5 w-full mx-auto text-center px-2 leading-7">
+                            We explore the differences between XLR and USB microphones, the advantages of each and which
+                            type is best suited to your needs.
+                        </h3>
+                        <div class="mt-8 text-center">
+                            <button
+                                class="py-2 px-8 bg-mybrown rounded-full text-white border-2 border-mybrown duration-200 hover:bg-white hover:text-mybrown">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="py-4 shadow bg-white">
+                        <p class="text-center font-medium pb-2 md:px-4 px-2 lg:text-2xl text-lg">
+                            The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones
+                        </p>
+                        <div>
+                            <img src="./Assets/thumbnail6.jpeg" alt="Img" class="" />
+                        </div>
+                        <h3 class="mt-4 md:w-4/5 w-full mx-auto text-center px-2 leading-7">
+                            We explore the difference between large- and small-diaphragm condenser microphones, and what
+                            each is best used for.
+                        </h3>
+                        <div class="mt-8 text-center">
+                            <button
+                                class="py-2 px-8 bg-mybrown rounded-full text-white border-2 border-mybrown duration-200 hover:bg-white hover:text-mybrown">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="py-4 shadow bg-white">
+                        <p class="text-center font-medium pb-2 md:px-4 px-2 lg:text-2xl text-lg">
+                            What is a Condenser Microphone and When to Use One
+                        </p>
+                        <div>
+                            <img src="./Assets/thumbnail.jpg" alt="Img" class="" />
+                        </div>
+                        <h3 class="mt-4 md:w-4/5 w-full mx-auto text-center px-2 leading-7">
+                            Learn more about the different types of condenser mics, how they work and the best
+                            applications for using them.
+                        </h3>
+                        <div class="mt-8 text-center">
+                            <button
+                                class="py-2 px-8 bg-mybrown rounded-full text-white border-2 border-mybrown duration-200 hover:bg-white hover:text-mybrown">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="py-4 shadow bg-white">
+                        <p class="text-center font-medium pb-2 md:px-4 px-2 lg:text-2xl text-lg">
+                            Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now
+                        </p>
+                        <div>
+                            <img src="./Assets/rode-rodecaster-pro-II-on-black-front-580x509.jpg" alt="Img" class="" />
+                        </div>
+                        <h3 class="mt-4 md:w-4/5 w-full mx-auto text-center leading-7 px-2">
+                            Firmware version 1.0.7 includes key feature additions, such as custom routing for USB and
+                            Bluetooth outputs, and more.
+                        </h3>
+                        <div class="mt-8 text-center">
+                            <button
+                                class="py-2 px-8 bg-mybrown rounded-full text-white border-2 border-mybrown duration-200 hover:bg-white hover:text-mybrown">
+                                LEARN MORE
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- end Latest From Rode -->
+
+            <!-- foooter -->
+
+            <footer class="border-t-[1px] border-lightgray-400 py-8 mt-8">
+                <div class="cs:w-[90%] w-[95%] mx-auto">
+                    <div class="grid lg:grid-cols-[2fr_7fr_3fr] grid-cols-1">
+                        <div class="lg:pr-12 pr-0">
+                            <img src="./Assets/RODE_logo_142x85_desktop_light_mode.svg" alt="img"
+                                class="py-4 lg:py-0 mx-auto" />
+                        </div>
+                        <div class=" cs:flex hidden justify-center">
+                            <ul class="px-8">
+                                <li class="font-medium mb-4">Products</li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Microphones
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Headphones
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Interfaces and Mixers
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Accessories
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Software
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Apparel
+                                </li>
+                            </ul>
+                            <ul class="px-8">
+                                <li class="font-medium mb-4">Support</li>
+                                <li class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  cursor-pointer">
+                                    Contact RØDE
+                                </li>
+                                <li class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  cursor-pointer">
+                                    Service Centre
+                                </li>
+                                <li class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  cursor-pointer">
+                                    Warranty
+                                </li>
+                                <li class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  cursor-pointer">
+                                    Where to Buy
+                                </li>
+                            </ul>
+                            <ul class="px-8">
+                                <li class="font-medium mb-4">Company</li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    About RØDE
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    News and Info
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Job Opportunities
+                                </li>
+                                <li class="font-medium my-4">Account</li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Manage your Account
+                                </li>
+                                <li
+                                    class="mt-2 text-[#6b7177]  font-normal hover:text-mybrown  duration-150 cursor-pointer">
+                                    Create Account
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="cs:hidden pb-8">
+                            <div id="accordion-flush" data-accordion="collapse"
+                                data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+                                data-inactive-classes="text-gray-500 dark:text-gray-400">
+                                <h2 id="accordion-flush-heading-1">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full py-5 text-left border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-semibold"
+                                        data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+                                        aria-controls="accordion-flush-body-1">
+                                        <span>Products</span>
+                                        <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0"
+                                            fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                                        <ul class="accordion-body py-4 px-5 flex flex-col">
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Microphones
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Headphones
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  duration-150 font-normal hover:text-mybrown cursor-pointer">
+                                                Interfaces and Mixers
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Accessories
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Software
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Apparel
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h2 id="accordion-flush-heading-2">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                                        data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
+                                        aria-controls="accordion-flush-body-2">
+                                        <span>Support</span>
+                                        <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
+                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-flush-body-2" class="hidden"
+                                    aria-labelledby="accordion-flush-heading-2">
+                                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                                        <ul class="accordion-body py-4 px-5 flex flex-col">
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Contact RØDE
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Service Centre
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Warranty
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Where to Buy
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h2 id="accordion-flush-heading-3">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                                        data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
+                                        aria-controls="accordion-flush-body-3">
+                                        <span>Company</span>
+                                        <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
+                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-flush-body-3" class="hidden"
+                                    aria-labelledby="accordion-flush-heading-3">
+                                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                                        <ul class="accordion-body py-4 px-5">
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                About RØDE
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                News and Info
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Job Opportunities
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <h2 id="accordion-flush-heading-4">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+                                        data-accordion-target="#accordion-flush-body-4" aria-expanded="false"
+                                        aria-controls="accordion-flush-body-4">
+                                        <span>Account</span>
+                                        <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor"
+                                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-flush-body-4" class="hidden"
+                                    aria-labelledby="accordion-flush-heading-3">
+                                    <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+                                        <ul class="accordion-body py-4 px-5">
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Manage your Account
+                                            </li>
+                                            <li
+                                                class="mt-3 ml-8 text-[#6b7177]  font-normal hover:text-mybrown duration-150 cursor-pointer">
+                                                Create Account
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" flex lg:flex-end flex-col mt-8 lg:mt-0 mb-2">
+                            <h2 class="lg:text-right text-center font-semibold text-2xl opacity-80">
+                                Subscribe to our latest news and offers
+                            </h2>
+                            <div class="mt-4 lg:text-right text-center">
+                                <button
+                                    class="py-1 px-4 bg-mybrown rounded-full text-white border-2 border-mybrown duration-200 hover:bg-white hover:text-mybrown">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex justify-between lg:flex-row flex-col space-y-4 lg:space-y-0 items-center pt-4 border-t-[1px] border-lightgray-400 mt-2">
+                        <p class="text-sm cursor-pointer lg:order-1 order-2 mt-4 lg:mt-0">
+                            © 2022 RØDE All Rights Reserved.
+                        </p>
+                        <ul class="flex justify-between lg:order-2 order-0">
+                            <li class="text-xs mx-2">Privacy Policy</li>
+                            <li class="text-xs mx-2 border-l-2 border-gray-500 pl-2">
+                                Terms & Conditions
+                            </li>
+                        </ul>
+                        <div class="lg:order-3 order-1">
+                            <i class="fab fa-facebook text-mybrown text-3xl lg:ml-4 ml-6 cursor-pointer"
+                                aria-hidden="true"></i>
+                            <i class="fab fa-twitter text-mybrown text-3xl lg:ml-4 ml-6 cursor-pointer"
+                                aria-hidden="true"></i>
+                            <i class="fab fa-instagram text-mybrown text-3xl lg:ml-4 ml-6 cursor-pointer"
+                                aria-hidden="true"></i>
+                            <i class="fab fa-youtube text-mybrown text-3xl lg:ml-4 ml-6 cursor-pointer"
+                                aria-hidden="true"></i>
+                            <i class="fab fa-tiktok text-mybrown text-3xl lg:ml-4 ml-6 cursor-pointer"
+                                aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+
+
+            <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>

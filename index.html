@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon" />
+    <title>Tailwind Projects</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      body {
+        text-align: center;
+      }
+
+      h1 {
+        margin: 1rem 0;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+        padding: 5px;
+      }
+
+      a img {
+        max-width: 250px;
+      }
+
+      a span {
+        padding: 5px;
+      }
+
+      a:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tailwind Projects</h1>
+    <div class="container">
+      <a href="./paytm clone/" target="_blank">
+        <span>PayTm Clone</span>
+        <img src="paytm clone/Thumbnail.PNG" alt="PayTm" />
+      </a>
+      <a href="./rode clone/" target="_blank">
+        <span>Rode Clone</span>
+        <img src="rode clone/thumbnail.jpg" alt="Rode" />
+      </a>
+      <a href="./shopify clone/" target="_blank">
+        <span>Shopify Clone</span>
+        <img src="shopify clone/thumbnail.jpg" alt="Shopify" />
+      </a>
+    </div>
+  </body>
+</html>
