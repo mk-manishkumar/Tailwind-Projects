@@ -23,11 +23,6 @@ While creating this project I learnt about various utilities and jargons of Tail
 14 hours
 
 
-
-# Netlify Link
-
-[PayTm Clone](https://paytm-clone-mk.netlify.app/)
-
 # Thumbnail
 
 ![Thumbnail](https://user-images.githubusercontent.com/102028645/188322659-ce95edad-150f-4c22-9e5a-cd0e667da121.PNG)
