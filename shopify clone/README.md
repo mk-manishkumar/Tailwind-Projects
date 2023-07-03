@@ -23,11 +23,6 @@ While creating this project I learnt about various utilities and jargons of Tail
 10 hours
 
 
-
-# Netlify Link
-
-[Shopify Clone](https://shopify-clone-mk.netlify.app/)
-
 # Thumbnail
 
 ![thumbnail](https://user-images.githubusercontent.com/102028645/188323680-92e9ebb9-2a26-44eb-8de1-f38f5d9bb4d9.png)
