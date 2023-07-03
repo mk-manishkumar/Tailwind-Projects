@@ -18,7 +18,7 @@ This repository consists of a collection of Tailwind-based projects, meticulousl
 <br>
 
 
-## 🛑 Mini Projects 🛑
+## 🛑 Projects 🛑
 
 ### 📌 **Link: (don't forget to check readme also)**
 
