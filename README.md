@@ -28,6 +28,7 @@ This repository consists of a collection of Tailwind-based projects, meticulousl
 | 01  |         [PayTm Clone](https://github.com/mk-manishkumar/Tailwind-Projects/tree/main/paytm%20clone)         | [Live Demo](https://tailwind-projects-mk.netlify.app/paytm%20clone/) |
 | 02  |      [Shopify Clone](https://github.com/mk-manishkumar/Tailwind-Projects/tree/main/shopify%20clone)       | [Live Demo](https://tailwind-projects-mk.netlify.app/shopify%20clone/) |
 | 03  | [Rode Clone](https://github.com/mk-manishkumar/Tailwind-Projects/tree/main/rode%20clone) | [Live Demo](https://tailwind-projects-mk.netlify.app/rode%20clone/) |
+| 04  | [Rode Clone](https://github.com/mk-manishkumar/Tailwind-Projects/tree/main/Motodeal) | [Live Demo](https://tailwind-projects-mk.netlify.app/motodeal/) |
 
 
 
